@@ -1,0 +1,30 @@
+project:
+  type: book
+  
+  output-dir: _docs
+book:
+  title: "Population Pharmacokinetic Report"
+  chapters:
+    - index.qmd 
+    - sec/synobsis.qmd 
+    - sec/overview.qmd 
+  appendices: 
+    - append/tez.qmd
+
+format: 
+  pdf:
+    documentclass: scrreprt
+    toc: true
+    lof: true
+    lot: true 
+    number-sections: true 
+    crossref: 
+      lof-title: Figures in-text 
+      lot-title: Tables in-text 
+      appendix-title: Supplementary materials
+geometry:
+  - margin=1in
+
+
+
+
