@@ -13,6 +13,7 @@ book:
     - sec/results.qmd
     - sec/discussion.qmd
     - sec/conclusion.qmd
+    - sec/final.qmd 
   appendices: 
     - append/tez.qmd
 
