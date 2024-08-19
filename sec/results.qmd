@@ -1,0 +1,42 @@
+# RESULTS {#sec-results}
+
+For each analysis (e.g. PopPK, PK/PD analysis, exposure-response analysis and simulations), an own sub-section should be included. 
+
+
+## Exploratory Data Analysis 
+
+Exploratory analysis performed prior to modeling, e.g. concentration-time curves or descriptive analyses of PD measures.
+
+
+## Model Development 
+
+### Base Model 
+Structural models considered, and model chosen.
+Diagnostic Plots for the assessment of structural models attempted.
+Discussion of alternative residual error and between subject variability models attempted, including alternative forms of variance covariance matrices as well as interoccasion variability. Statistical model chosen.
+
+Goodness of fit graphs for the assessment of random effects structures employed.
+
+### Covariate Model 
+
+Method for identifying candidate covariates, description of covariate entered/excluded at each step and final covariate model selected.
+
+### Final Model 
+
+It is advisable to include a diagram or table depicting the various modeling steps, with the corresponding objective function values.
+
+It is essential to include a table with all final model parameter estimates. The table should include parameter estimates and their associated uncertainty, with variability reported as CV% and precisión reported as the percent relative standard error (RSE%) or the 95 percent confidence Interval.
+
+Add calculation methods below the table.
+It is advisable to include a comparison of parameter estimates from the base to the final model.
+If a previous model exists, a comparison of parameter estimates from the previous and current model may be added.
+The reliability of the analysis results can be checked by careful examination of diagnostic plots, including predicted versus observed concentration, predicted concentration superimposed on the data, and posterior estimates of parameter versus covariate values. Checking the parameter estimates, standard errors, case deletion diagnostics, and sensitivity analysis may also be appropriate.
+
+
+## Model Evaluation 
+
+External and/or internal validation including visual predictive checks. Potential application of bootstrap to obtain confidence intervals
+
+## Model Application 
+
+Model based simulations to evaluate the effect of covariates and other factors might impact PK (or PD).

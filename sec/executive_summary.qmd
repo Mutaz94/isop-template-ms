@@ -1,0 +1,3 @@
+# EXECUTIVE SUMMARY {#sec-executive-summary}
+
+\textit{{The executive summary provides a brief overview of the analysis, highlighting the purpose, key findings affecting usage, labeling, and any additional recommendations based on the population PK analysis. It should be concise, typically consisting of 2-3 short paragraphs, and prepared with the understanding that it may be copied and pasted into a regulatory document.}}
